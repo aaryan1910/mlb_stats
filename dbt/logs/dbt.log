@@ -1,0 +1,30 @@
+[0m18:01:28.963838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c59e370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d642460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d642790>]}
+
+
+============================== 18:01:28.966006 | 52dc4697-d676-4ddc-bc4a-3823272665cb ==============================
+[0m18:01:28.966006 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m18:01:28.966269 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'warn_error': 'None', 'log_cache_events': 'False', 'log_path': 'logs', 'version_check': 'True', 'log_format': 'default', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/Users/aaryangaikwad/.dbt', 'debug': 'False', 'quiet': 'False', 'target_path': 'None', 'printer_width': '80', 'no_print': 'None', 'partial_parse': 'True', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'empty': 'None', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init mlb_stats', 'write_json': 'True', 'use_colors': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m18:01:28.973207 [debug] [MainThread]: Starter project path: /Users/aaryangaikwad/Documents/Coding Projects/mlb_stats/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m18:01:28.980381 [info ] [MainThread]: 
+Your new dbt project "mlb_stats" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:01:28.981632 [info ] [MainThread]: Setting up your profile.
+[0m18:02:16.980985 [info ] [MainThread]: Profile mlb_stats written to /Users/aaryangaikwad/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:02:16.989634 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 48.059994, "process_in_blocks": "0", "process_kernel_time": 0.206415, "process_mem_max_rss": "181764096", "process_out_blocks": "0", "process_user_time": 0.995234}
+[0m18:02:16.990567 [debug] [MainThread]: Command `dbt init` succeeded at 18:02:16.990441 after 48.06 seconds
+[0m18:02:16.991045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c59e370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d6dc8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d623b80>]}
+[0m18:02:16.991498 [debug] [MainThread]: Flushing usage events
+[0m18:02:17.285527 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: MLB_STATS
+    schema: RAW
+    tables:
+      - name: RAW_BATTING
+      - name: RAW_BATTING_STATCAST
+      - name: RAW_PITCHING
